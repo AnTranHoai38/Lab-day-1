@@ -4,7 +4,7 @@ sum = 0
 for i in range(num):
     i = float(input("Enter the score:"))
     lst.append(i)
-    sum = sum + i
+    sum += i
 lst.sort()
 print(f"Highest score: {lst[num-1]}\nLowest score: {lst[0]}")
 print("Average score:", sum / num)
